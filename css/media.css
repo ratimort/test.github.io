@@ -1,0 +1,381 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1400px) {
+.rates .rates-toggle .col-md-12 #form {
+	width: 1100px;
+}
+}
+
+
+@media only screen and (max-width: 1270px) {
+	.top-head .container .menu ul li {
+		font-size: 16px;
+	}
+	.top-head .container .menu ul li {
+		padding: 25px 13px;
+	}
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1190px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	width: 250px;
+	padding: 50px 20px
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text p {
+	font-size: 15px;
+}
+.description .container {
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 996px) {
+.top-head .container .menu ul li {
+	font-size: 15px;
+	padding: 25px 10px;
+}
+.work .container .col-md-12 .item .item-info .info .info-2 p {
+	margin: 10px 0;
+	line-height: 20px;
+}
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 20% 0 40px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 150px;
+	height: 150px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	padding: 25px 20px;
+	font-size: 14px;
+	right: 0;
+	width: 220px;
+	height: 180px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 {
+	height: 180px;
+}
+.rates .container .col-md-4 .col-md-12 .text ul {
+	padding-left: 20px;
+}
+.rates .container .col-md-4 .col-md-12 .text ul li {
+	font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 823px) {
+.top-head .container .menu ul li {
+	font-size: 14px;
+}
+.rates .rates-toggle .col-md-12 {
+	padding: 40px 50px;
+}
+.rates .rates-toggle .col-md-12 {
+	padding: 0 100px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 776px) {
+.top-head .container .menu ul {
+	display: none
+}
+.top-head .container .menu-icon {
+	display: block;
+}
+
+}
+@media only screen and (max-width: 767px) {
+.description .container .col-md-12 .col-md-6 {
+	padding: 0 15px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 200px;
+	height: 200px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	width: 525px;
+	padding: 70px 20px 0;
+}
+.description .container .col-md-12 .left .col-md-12 .text {
+	left: inherit;
+}
+.description .container .col-md-12 .left .col-md-12 .circle {
+	right: inherit;
+}
+
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 52% 0 40px;
+}
+}
+@media only screen and (max-width: 736px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	width: 390px;
+	padding: 70px 20px 0;
+}
+.application .container .col-md-12 .col-md-12 #form input {
+	width: 98%;
+}
+.application .container .col-md-12 h1 {
+	font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.top-head .container .menu-icon {
+	top: 20px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 170px;
+	height: 170px;
+}
+
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	width: 320px;
+	padding: 60px 0 0;
+}
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 40% 0 40px;
+}
+/*.rates .rates-toggle .col-md-12 {
+	padding: 70px 50px;
+}*/
+.rates .rates-toggle .col-md-1 i {
+	font-size: 35px
+}
+}
+
+@media only screen and (max-width: 527px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	width: 270px;
+}
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 35% 0 40px;
+}
+.application .container .col-md-12 h1 {
+	font-size: 35px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.work .work-toggle .container .col-md-12 .head h2 {
+	margin: 0 5px;
+}
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 23% 0 40px;
+}  
+.work .work-toggle .container .col-md-12 .head ul {
+	padding: 0
+}
+.work .work-toggle .container .col-md-12 .head ul li {
+	font-size: 20px;
+    padding: 27px 1px;
+}
+.work .work-toggle .container .col-md-12 .head img {
+	width: 80px;
+}
+.work .work-toggle .container .col-md-12 .text p {
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 400;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 150px;
+	height: 150px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	padding: 45px 0 0;
+	height: 130px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text p {
+	font-size: 13px;
+	line-height: 20px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 {
+	height: 160px;
+}
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 30% 0 40px;
+} 
+.application .container .col-md-12 h1 {
+	font-size: 30px;
+}
+.rates .rates-toggle .col-md-12 {
+	padding: 70px 20px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	padding: 25px 0 0;
+	width: 220px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 130px;
+	height: 130px;
+}
+.rates .container h1 {
+	font-size: 35px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	padding: 25px 0 0 20px;
+	width: 235px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text p {
+	font-size: 12px;
+	line-height: 18px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 105px;
+	height: 105px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 {
+	height: 130px;
+}
+.description .container h1 {
+	font-size: 35px;
+}
+.result .container h1 {
+	font-size: 35px;
+}
+.work .container h1 {
+	font-size: 35px;
+}
+
+.work .container .col-md-12 .item .item-info .head img {
+	width: 80px
+}
+.work .container .col-md-12 .item .item-info .info .info-2 .link p {
+	font-size: 11px;
+}
+.work .container .col-md-12 .item .item-info .info .info-2 p {
+	line-height: 15px;
+}
+.reviews .container h1 {
+	font-size: 35px;
+}
+.application .container .col-md-12 h1 {
+	font-size: 25px;
+}
+.rates .rates-toggle .col-md-1 i {
+	font-size: 25px
+}
+}
+
+@media only screen and (max-width: 380px) {
+.description .container .col-md-12 .col-md-6 .col-md-12 .text {
+	padding: 25px 0 0 20px;
+	width: 190px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .text p {
+	font-size: 11px;
+	line-height: 18px;
+}
+.description .container .col-md-12 .col-md-6 .col-md-12 .circle {
+	width: 105px;
+	height: 105px;
+}
+.work .container .col-md-12 .item .item-info .info .info-2 p {
+	line-height: 10px;
+}
+.work .container .col-md-12 .item .item-info .head h2 {
+	margin: 0 10% 0 25px;
+}
+.application .container .col-md-12 h1 {
+	font-size: 20px;
+}
+.rates .rates-toggle .col-md-1 i {
+	font-size: 20px
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
+
+@media only screen and (max-height: 600px) {
+.rates .rates-toggle {
+	height: 600px;
+}
+.rates .rates-toggle .col-md-12 #form input {
+	margin: 1px 0;
+}
+.rates .rates-toggle .col-md-1 {
+	padding: 5px 25px;
+}
+.rates .rates-toggle .col-md-12 h1 {
+	margin: 5px 0;
+}
+.rates .rates-toggle .col-md-12 #form button {
+	font-size: 15px;
+	margin: 10px 0;
+}
+.work .work-toggle .col-md-1 {
+	padding: 10px 25px;
+}
+.work .work-toggle .col-md-1 i {
+	font-size: 30px;
+}
+.work .work-toggle .container .col-md-12 .head img {
+	width: 80px;
+}
+.work .work-toggle .container .col-md-12 .text p {
+	font-size: 14px;
+	line-height: 20px;	
+}
+.work .work-toggle .container .col-md-12 .head ul li {
+	font-size: 20px;
+}
+.work .work-toggle .container .col-md-12 .text {
+	padding: 15px 0;
+}
+.work .work-toggle .container .col-md-12 .text {
+	padding: 5px 0;
+}
+.work .container .col-md-12 .click a {
+	padding: 5px 20px;
+	font-size: 15px
+}
+}

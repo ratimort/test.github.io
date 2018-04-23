@@ -1,0 +1,574 @@
+* 
+	margin: 0
+body
+	-webkit-font-smoothing: antialiased
+	background-color: #111
+
+h1, h3, h2, h4, li
+	//font-family: Montserrat,Helvetica,sans-serif
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-decoration: none
+	font-weight: 300
+	color: #111
+	letter-spacing: 3px
+	font-style: normal
+p, button, a
+	font-family: Montserrat,Helvetica,sans-serif
+	text-decoration: none
+	font-weight: 100
+	color: #111
+	font-size: 15px
+	line-height: 25px
+button 
+	border: none
+
+// HEADER 
+
+.top-head
+	width: 100%
+	height: 100vh
+	background: url('../img/nordwood.jpg')
+	background-size: cover
+	background-position: center
+	.container 
+		width: 100%
+		height: 100vh
+		// background-color: linear-gradient(45deg, #f19a63 1%, #d3306f 24%, #d3306f 39%, #a43a96 100%)
+		// background-color: linear-gradient(45deg, #a43a96 100%,#d3306f 39%,#d3306f 24%, #f19a63 1%)
+		// background-image: linear-gradient(45deg, rgb(241, 154, 99) 1%, rgb(211, 48, 111) 40%, rgb(211, 48, 111) 80%, rgb(164, 58, 150) 100%)
+		// background-image: linear-gradient(45deg, rgb(164, 58, 150) 100% rgb(211, 48, 111) 80%, rgb(211, 48, 111) 40%, rgb(241, 154, 99) 1%)
+		//background-color: linear-gradient(300deg, #a43a96 100%, #d3306f 39%, #d3306f 24%, #f19a63 1%)
+		//background-image: linear-gradient(300deg, rgb(241, 154, 99) 1%, rgb(211, 48, 111) 60%, rgb(211, 48, 111) 80%, rgb(164, 58, 150) 100%)
+		background-image: linear-gradient(300deg, rgba(241, 154, 99, 0.7) 1%, rgba(211, 48, 111, 0.7) 60%, rgba(211, 48, 111, 0.7) 80%, rgba(164, 58, 150, 0.7) 100%)
+		.logo
+			padding: 0
+			img
+				width: 100%
+				padding: 20px 0px
+		.menu 
+			padding: 0
+			ul 
+				padding: 0
+				li 
+					list-style-type: none
+					display: inline-block
+					padding: 20px 19px
+					font-size: 20px
+					a 
+						color: #fff
+						font-weight: 400
+						letter-spacing: 1px
+						transition: color .3s ease
+						&:hover
+							color: #ff6666
+		.menu-icon
+			display: none
+			position: absolute
+			right: 30px
+			top: 30px
+			.bar 
+			    width: 30px
+			    height: 4px
+			    background-color: #fff
+			    margin: 6px 0
+
+// HEADER 
+
+
+
+
+// DESCRIPTION
+
+.description
+	width: 100%
+	height: 100%
+	margin: 30px 0
+	.container
+		padding: 0
+		h1
+			text-align: center
+			font-size: 50px
+			margin: 25px 0
+		.col-md-12
+			padding: 0
+			.col-md-6
+				height: 100%
+				padding: 0
+				.col-md-12
+					height: 200px
+					padding: 0
+					margin: 20px 0
+					.circle 
+						width: 200px
+						height: 200px
+						border-radius: 50%
+						display: inline-block
+						padding: 30px
+						position: absolute
+						// left: 0
+						box-shadow: 0 10px 10px rgba( 1,1,1,0.09)
+						img 
+							width: 100%
+					.text 
+						width: 300px
+						height: 100%
+						display: inline-block
+						position: absolute
+						right: 40px
+						padding: 50px 20px 50px 0
+						p 
+							font-size: 17px
+							text-align: center
+							font-weight: 400
+			.left 
+				height: 100%
+				padding: 0				
+				.col-md-12
+					height: 200px
+					padding: 0
+					margin: 20px 0
+					.circle 
+						width: 200px
+						height: 200px
+						border-radius: 50%
+						display: inline-block
+						padding: 30px
+						position: absolute
+						right: 0
+						box-shadow: 0 10px 10px rgba( 1,1,1,0.09)
+						img 
+							width: 100%
+					.text 
+						width: 300px
+						height: 200px
+						display: inline-block
+						position: absolute
+						left: 40px
+						padding: 50px 0 50px 20px
+						p 
+							font-size: 17px
+							text-align: center
+							font-weight: 400
+
+				
+
+// DESCRIPTION
+
+
+
+
+
+
+
+
+// RATES
+
+
+.rates 
+	width: 100%
+	height: 100%
+	background-color: #f5f5f5
+	.container
+		padding: 20px 0
+		h1
+			text-align: center
+			font-size: 50px
+		.col-md-4
+			margin: 20px 0
+			.col-md-12
+				padding: 0
+				box-shadow: 0 10px 30px rgba( 1,1,1,0.09)
+				transition: .3s ease
+				&:hover 
+					margin-top: 20px
+				.head
+					width: 100%
+					height: 100%
+					background-color: #f5f5f5
+					h2 
+						text-align: center
+						padding: 20px 0 10px
+						letter-spacing: 1px
+						font-weight: 400
+					h3 
+						text-align: center
+						margin: 0 0 10px
+					img 
+						width: 100px
+						margin: 20px 0
+				.text 
+					ul 
+						li 
+							list-style-type: none
+							text-align: left
+							margin: 10px 0
+							font-weight: 400
+							letter-spacing: 1px
+				.price 
+					width: 100%
+					padding: 10px 0
+					span 
+						font-size: 20px
+				.button 
+					padding: 0 0 15px
+					button 
+						background-color: #d44c36
+						border: 0
+						font-size: 20px
+						color: #fff
+						outline: 0
+						padding: 5px 20px
+						text-transform: uppercase
+						border-radius: 20px
+	.rates-toggle
+		width: 100%
+		height: 100%
+		display: none
+		background-color: rgba(1,1,1,0.8)
+		position: fixed
+		top: 0
+		z-index: 100
+		.col-md-11
+		.col-md-1
+			padding: 20px 25px
+			z-index: 1
+			i 
+				font-size: 40px
+				color: #fff
+				cursor: pointer
+		.col-md-12
+			padding: 70px 100px
+			h1
+				text-align: center
+				color: #fff
+				font-weight: 400
+			#form
+				margin: auto
+				overflow: 
+				input
+					width: 100%
+					padding: 15px
+					font-size: 20px
+					margin: 10px 0
+					outline: 0
+				button
+					background-color: #d44c36
+					border: 0
+					outline: 0
+					color: #fff
+					padding: 10px 20px
+					text-transform: uppercase
+					font-size: 20px
+					border-radius: 20px
+					margin: 20px 0
+				br 
+					display: block
+
+// RATES
+
+
+
+
+
+// RESULT
+
+.result 
+	width: 100%
+	height: 600px
+	background-color: #222
+	.container
+		h1
+			font-size: 50px 
+			text-align: center
+			color: #fff
+
+
+// RESULT
+
+
+
+
+// reviews
+
+.work 
+	width: 100%
+	height: 100%
+	background-color: #f1f1f1
+	.container
+		h1
+			text-align: center
+			font-size: 50px
+		.col-md-12
+			height: 100%
+			padding: 0 0 50px
+			.item 
+				margin: 0 5px
+				.item-info 
+					width: 100%
+					height: 100%
+					margin: auto
+					background-color: #fff
+					.head
+						width: 100%
+						height: 100%
+						border-bottom: 1px solid #111
+						padding: 20px 0
+						background-color: #fff
+						h2 
+							display: inline-block
+							margin: 0 25% 0 40px;
+							border-bottom: 1px solid #111
+							font-weight: 400
+						img
+							width: 100px
+							border: 1px solid rgba(1,1,1,0.1)
+							border-radius: 50%
+							display: inline-block
+					.info 
+						height: 100%
+						display: inline-block
+						padding: 0
+						background-color: #fff
+						.info-1
+							height: 100%
+							padding: 0
+							img
+								width: 100%
+								padding: 20px 0
+						.info-2
+							height: 100%
+							padding: 20px 15px 0 15px 
+							h3
+								font-weight: 400
+							p 
+								font-size: 13px
+								font-weight: 400
+								color: #666
+								margin: 10px 0
+							.link 
+								width: 100%
+								padding: 3px
+								background-color: #111
+								p 
+									margin: 0
+									color: #fff
+									text-align: center
+						.case 
+							width: 100%
+							height: 100%
+							padding: 20px 0 0
+							button
+								margin: auto
+								background-color: #d44c36
+								color: #fff
+								border: 0
+								outline: 0
+								width: 100%
+								padding: 10px 20px
+								text-transform: uppercase
+			.click
+				a
+					margin: auto
+					background-color: #d44c36
+					border: 0
+					outline: 0
+					color: #fff
+					padding: 10px 20px
+					text-transform: uppercase
+					font-size: 20px
+					border-radius: 20px
+	.work-toggle
+		width: 100%
+		height: 100%
+		background-color: rgba(1,1,1,0.8)
+		position: fixed
+		top: 0
+		z-index: 100
+		display: none
+		.col-md-11
+		.col-md-1
+			padding: 20px 25px
+			z-index: 1
+			i 
+				font-size: 40px
+				color: #fff
+				cursor: pointer
+		.container
+			.col-md-12
+				background-color:#f5f5f5
+				.head
+					border-bottom: 1px solid #111
+					img 
+						width: 100px
+						display: inline-block
+						padding: 10px
+					h2
+						font-weight: 400
+						display: inline-block
+						margin: 0 30px
+					ul 
+						display: inline-block
+						float: right
+						li 
+							display: inline-block
+							font-size: 30px
+							padding: 30px 10px
+				.text
+					margin: auto
+					width: 83%
+					padding: 20px 0
+					p 
+						font-size: 20px
+						line-height: 30px
+		.click
+			a
+				margin: auto
+				background-color: #d44c36
+				border: 0
+				outline: 0
+				color: #fff
+				padding: 10px 20px
+				text-transform: uppercase
+				font-size: 20px
+				border-radius: 20px
+.owl-nav 
+	width: 135px
+	margin: auto
+	button
+		margin: 20px
+		outline: 0
+		i 
+			font-size: 30px
+// reviews
+
+
+
+
+
+
+
+
+
+// reviews
+
+.reviews
+	background-color: #f5f5f5
+	.container
+		h1 
+			text-align: center
+			font-size: 50px
+		.col-md-12
+			.owl-item 
+				margin: 0
+			.item
+				width: 100%
+				height: 100%
+				padding: 0 0 20px
+				h2 
+					text-align: center
+					margin: 10px 0
+					font-weight: 400
+				p 
+					text-align: center
+					font-style: italic
+				.img 
+					border: 1px solid #111
+					border-radius: 50%
+					margin: auto
+					width: 130px
+					padding: 20px
+					img
+						width: 100%
+			.owl-nav
+				display: block
+
+// reviews
+
+
+
+
+// ABOUT
+
+.about 
+	width: 100%
+	height: 650px
+	background-color: #222
+	.container
+		h1
+			color: #fff
+			text-align: center
+			font-size: 50px
+
+// ABOUT
+
+
+
+
+// application
+
+.application
+	width: 100%
+	height: 100%
+	background-color: #f5f5f5
+	padding: 0 0 25px
+	.container
+		.col-md-12
+			h1
+				text-align: center
+				font-size: 50px
+			.col-md-12
+				padding: 0
+				#form
+					input
+						width: 45%
+						padding: 15px
+						font-size: 20px
+						margin: 5px 0
+						outline: 0
+						border-radius: 0
+						border: 1px solid #fff
+					button
+						background-color: #d44c36
+						border: 0
+						outline: 0
+						color: #fff
+						padding: 10px 20px
+						text-transform: uppercase
+						font-size: 20px
+						border-radius: 20px
+						margin: 20px 0
+					br 
+						display: block
+
+
+// application
+
+
+// FOOTER
+
+footer 
+	width: 100%
+	background-color: #222
+	.container 
+		.col-md-2
+			padding: 0
+			img
+				width: 100%
+				padding: 20px 0px
+		.col-md-10
+			ul 
+				float: right
+				padding: 9.5px
+				li 
+					list-style-type: none
+					display: inline-block
+					padding: 11px
+					i 
+						font-size: 35px
+						color: #fff
+						transition: color .3s ease
+						&:hover 
+							color: #d44c36
+// FOOTER
+
+
